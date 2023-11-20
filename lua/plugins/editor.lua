@@ -193,4 +193,10 @@ return {
   {
     "mg979/vim-visual-multi",
   },
+
+  {
+    "NoahTheDuke/vim-just",
+    event = { "BufReadPre", "BufNewFile" },
+    ft = { "\\cjustfile", "*.just", ".justfile" },
+  },
 }
