@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Screenshot-dashboard](screenshot.png)
+![Screenshot-dashboard](./screenshot1.png)
 
 ## Install
 
