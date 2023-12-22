@@ -9,12 +9,22 @@ return {
 
   {
     "loctvl842/monokai-pro.nvim",
+    opts = {
+      transparent_background = true,
+    },
   },
 
   {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "monokai-pro",
+    },
+  },
+
+  {
+    "rcarriga/nvim-notify",
+    opts = {
+      background_colour = "#000000",
     },
   },
 
