@@ -5,6 +5,11 @@ return {
 
   {
     "rebelot/kanagawa.nvim",
+    opts = {
+      transparent = true,
+      compile = true,
+      terminalColors = true,
+    },
   },
 
   {
@@ -17,7 +22,8 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "monokai-pro",
+      -- colorscheme = "monokai-pro",
+      colorscheme = "kanagawa-wave",
     },
   },
 

@@ -24,9 +24,15 @@ return {
       formatters = {
         clang_format = {
           command = require("conform.util").find_executable({
-            "/usr/bin/clang-format",
+            "/etc/profiles/per-user/eastxuelian/bin/clang-format",
           }, "clang-format"),
-          prepend_args = { "-style=file:/home/eastxuelian/.clang-format" },
+          prepend_args = { "-style=file:/home/eastxuelian/config/.clang-format" },
+        },
+        stylua = {
+          command = require("conform.util").find_executable(
+            { "/etc/profiles/per-user/eastxuelian/bin/stylua" },
+            "stylua"
+          ),
         },
       },
     },

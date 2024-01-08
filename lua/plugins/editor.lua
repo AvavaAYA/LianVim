@@ -180,16 +180,25 @@ return {
     },
   },
 
+  -- {
+  --   "JoosepAlviste/nvim-ts-context-commentstring",
+  --   lazy = true,
+  --   opts = {
+  --     config = {
+  --       nix = "# %s",
+  --     },
+  --   },
+  -- },
+
   {
     "JoosepAlviste/nvim-ts-context-commentstring",
-    lazy = true,
     opts = {
-      enable_autocmd = true,
-      languages = {
+      config = {
         nix = "# %s",
       },
     },
   },
+
   {
     "mg979/vim-visual-multi",
   },
