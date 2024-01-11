@@ -1,6 +1,8 @@
 # ❄️ LianVim
 
-> _forked from [lazyvim](https://www.lazyvim.org/)_
+> _eastXueLian's [Neovim](https://neovim.io/) config based on [lazyvim](https://www.lazyvim.org/)_
+
+## Migrating to nixOS these days.
 
 ## Screenshot
 
