@@ -208,4 +208,6 @@ return {
     event = { "BufReadPre", "BufNewFile" },
     ft = { "\\cjustfile", "*.just", ".justfile" },
   },
+
+  { "lambdalisue/suda.vim" },
 }
