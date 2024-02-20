@@ -22,8 +22,8 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      -- colorscheme = "monokai-pro",
-      colorscheme = "kanagawa-wave",
+      colorscheme = "monokai-pro",
+      -- colorscheme = "kanagawa-wave",
     },
   },
 
