@@ -20,4 +20,5 @@ return {
     { "<leader>as", desc = "summarize text" },
     { "<leader>ag", desc = "generate git message" },
   },
+  OPENAI_KEY = "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",
 }
