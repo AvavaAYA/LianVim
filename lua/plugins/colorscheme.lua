@@ -58,7 +58,7 @@ return {
         theme = "doom",
         preview = {
           command = "nyancat",
-          file_path = "~/test.txt",
+          file_path = "/dev/null",
           file_height = 28,
           file_width = 100,
         },
