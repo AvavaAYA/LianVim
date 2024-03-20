@@ -56,6 +56,12 @@ return {
 
       local opts = {
         theme = "doom",
+        preview = {
+          command = "nyancat",
+          file_path = "~/test.txt",
+          file_height = 28,
+          file_width = 100,
+        },
         hide = {
           -- this is taken care of by lualine
           -- enabling this messes up the actual laststatus setting after loading a file
