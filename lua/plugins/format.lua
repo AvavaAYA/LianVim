@@ -14,8 +14,8 @@ return {
         end,
         javascript = { { "prettierd", "prettier" } },
         markdown = { { "prettierd", "prettier" } },
-        c = { "clang_format", "astyle" },
-        cpp = { "clang_format", "astyle" },
+        c = { "clang_format" },
+        cpp = { "clang_format" },
         rust = { "rustfmt" },
         nix = { "nixfmt" },
         s = { "asmfmt" },
@@ -24,15 +24,12 @@ return {
       formatters = {
         clang_format = {
           command = require("conform.util").find_executable({
-            "/etc/profiles/per-user/eastxuelian/bin/clang-format",
+            "/opt/homebrew/bin/clang-format",
           }, "clang-format"),
-          prepend_args = { "-style=file:/home/eastxuelian/config/.clang-format" },
+          prepend_args = { "-style=file:/Users/eastxuelian/.config/clang-format-default" },
         },
         stylua = {
-          command = require("conform.util").find_executable(
-            { "/etc/profiles/per-user/eastxuelian/bin/stylua" },
-            "stylua"
-          ),
+          command = require("conform.util").find_executable({ "/opt/homebrew/bin/stylua" }, "stylua"),
         },
       },
     },
