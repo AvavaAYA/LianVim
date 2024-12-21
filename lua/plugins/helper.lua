@@ -1,6 +1,7 @@
 return {
   {
     "Bryley/neoai.nvim",
+    enabled = false,
     dependencies = {
       "MunifTanjim/nui.nvim",
     },
@@ -25,6 +26,7 @@ return {
 
   {
     "iamcco/markdown-preview.nvim",
+    enabled = false,
     cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
     ft = { "markdown" },
     build = function()

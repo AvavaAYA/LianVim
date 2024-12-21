@@ -13,6 +13,7 @@ return {
           end
         end,
         javascript = { { "prettierd", "prettier" } },
+        typescript = { { "prettierd" } },
         markdown = { { "prettierd", "prettier" } },
         c = { "clang_format" },
         cpp = { "clang_format" },
@@ -26,7 +27,7 @@ return {
           command = require("conform.util").find_executable({
             "/opt/homebrew/bin/clang-format",
           }, "clang-format"),
-          prepend_args = { "-style=file:/Users/eastxuelian/.config/clang-format-default" },
+          prepend_args = { "-style=file:/Users/bytedance/.clang-format-default" },
         },
         stylua = {
           command = require("conform.util").find_executable({ "/opt/homebrew/bin/stylua" }, "stylua"),
