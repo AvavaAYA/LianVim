@@ -12,8 +12,9 @@ return {
             return { "isort", "black" }
           end
         end,
-        javascript = { { "prettierd", "prettier" } },
-        markdown = { { "prettierd", "prettier" } },
+        javascript = { { "prettierd" } },
+        markdown = { { "prettierd" } },
+        typescript = { "prettierd" },
         c = { "clang_format" },
         cpp = { "clang_format" },
         rust = { "rustfmt" },
