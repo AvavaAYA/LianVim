@@ -42,4 +42,8 @@ return {
       },
     },
   },
+
+  {
+    "sindrets/diffview.nvim",
+  },
 }

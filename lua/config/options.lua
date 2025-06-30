@@ -12,7 +12,6 @@ opt.mouse = "n" -- Enable mouse mode
 
 opt.clipboard = "unnamedplus"
 opt.wrap = true
-opt.clipboard = ""
 
 opt.spelllang = "en,cjk"
 -- vim.opt.spell = true
